@@ -1,0 +1,90 @@
+# Datasets (including compressed CSV files)
+[dD][aA][tT][aA]/
+datasets/
+raw_data/
+processed_data/
+*.[cC][sS][vV]
+*.[cC][sS][vV].*
+*.tsv
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.sqlite
+*.sqlite3
+*.db
+
+# Virtual environment installed directly in this folder
+/bin/
+/lib/
+/lib64
+/include/
+/share/
+/etc/
+/pyvenv.cfg
+
+# Other local Python environments
+.venv/
+venv/
+env/
+.conda/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Notebook checkpoints (keep source notebooks)
+.ipynb_checkpoints/
+
+# Generated models and experiment outputs
+artifacts/
+checkpoints/
+outputs/
+runs/
+mlruns/
+wandb/
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.keras
+*.tfevents.*
+
+# Archives, logs, and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+!.env.template
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
