@@ -46,8 +46,10 @@ build/
 dist/
 *.egg-info/
 
-# Notebook checkpoints (keep source notebooks)
+# Notebook checkpoints and local IPython/Jupyter files
 .ipynb_checkpoints/
+.ipython/
+.virtual_documents/
 
 # Generated models and experiment outputs
 artifacts/
